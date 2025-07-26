@@ -1,0 +1,178 @@
+52  mkdir github-for-devops-workshop
+   53  ls
+   54  ls -l
+   55  ls
+   56  cd github-for-devops-workshop/
+   57  ls
+   58  vi testing.py
+   59  ls
+   60  python3 --version
+   61  python3 testing.py
+   62  git init
+   63  ls -a
+   64  ls -l
+   65  ls -al
+   66  cd .git/
+   67  ls
+   68  cd ..
+   69  git status
+   70  git add testing.py
+   71  git status
+   72  git rm --cashed testing.py
+   73  git status
+   74  git rm --cached testing.py
+   75  git status
+   76  git add testing.py
+   77  git status
+   78  git commit testing.py
+   79  git status
+   80  git commit
+   81  git commit -m "added testing file"
+   82  git status
+   83  git config --global user.email "minhazul@gmail.com"
+   84  git config --global user.name "minhazul"
+   85  git commit -m "added testing file"
+   86  git status
+   87  ls
+   88  rm -rf testing.py
+   89  ls
+   90  git status
+   91  git restore testing.py
+   92  ls
+   93  python3 testing.py
+   94  ls
+   95  cd github-for-devops-workshop/
+   96  ls
+   97  history
+   98  git status
+   99  ls
+  100  vi git-commands.txt
+  101  vi git-commands.txt
+  102  ls
+  103  git status
+  104  git add .
+  105  ls
+  106  git status
+  107  vi git-commands.txt
+  108  git commit git-commands.txt
+  109  git commit
+  110  git status
+  111  git restore --staged testing.py
+  112  git status
+  113  git restore --staged git-commands.txt
+  114  git status
+  115  ls
+  116  rm -rf testing.py
+  117  ls
+  118  git status
+  119  ls
+  120  git restore testing.py
+  121  ls
+  122  git status
+  123  git add git-commands.txt
+  124  git status
+  125  vi test.txt
+  126  git status
+  127  git restore --staged git-commands.txt
+  128  git status
+  129  git add .
+  130  git status
+  131  git commit -m "add git-commands.txt & test.txt"
+  132  git status
+  133  ls
+  134  cd
+  135  ls
+  136  mkdir github-workshop
+  137  ls
+  138  cd github-for-devops-workshop/
+  139  ls
+  140  cp git-commands.txt testing.py test.txt /home/adminminhaz/github-workshop/
+  141  ls
+  142  cd
+  143  cd github-workshop/
+  144  ls
+  145  git status
+  146  git init
+  147  ls -al
+  148  git add .
+  149  ls
+  150  git status
+  151  git commit -m "3 files git-commands.txt, test.txt, testing.py"
+  152  git status
+  153  git remote add origin https://github.com/minhaz754/github-workshop.git
+  154  git remote -v
+  155  git status
+  156  git remote -v
+  157  git remote set-url origin https://PAT@github.com/minhaz754/github-workshop.git
+  158  git remote -v
+  159  git status
+  160  git push origin master
+  161  git push origin main
+  162  git status
+  163  ls
+  164  history
+  165  ls
+  166  vi git-commands.txt
+  167  git status
+  168  git commit -m "few commands added"
+  169  git status
+  170  git commit -a
+  171  git add git-commands.txt
+  172  git status
+  173  git commit -m "few commands added"
+  174  git status
+  175  git push origin master
+  176  git status
+  177  ls
+  178  vi git-commands.txt
+  179  git status
+  180  git add git-commands.txt
+  181  git status
+  182  git commit -m
+  183  git commit -m "edited"
+  184  git status
+  185  git push origin master
+  186  ls
+  187  vi git-commands.txt
+  188  vi test
+  189  vi test.txt
+  190  vi git-commands.txt
+  191  ls
+  192  cd github-w
+  193  cd github-workshop/
+  194  ls
+  195  git status
+  196  vi git-commands.txt
+  197  history
+  198  cd github-workshop/
+  199  ls
+  200  rm -rf git-commands.txt
+  201  ls
+  202  rm -rf test
+  203  ls
+  204  cd github-workshop/
+  205  ls
+  206  git status
+  207  vi commands.txt
+  208  ls
+  209  vi commands.txt
+  210  git status
+  211  git add .
+  212  git status
+  213  git commit -m "git-commands.txt deleted and commands.txt added"
+  214  git status
+  215  git push origin master
+  216  git reset HEAD~1
+  217  git status
+  218  git add .
+  219  git status
+  220  sudo apt install git-filter-repo -y
+  221  git filter-repo --path git-commands.txt --invert-paths
+  222  git filter-repo --path git-commands.txt --invert-paths --force
+  223  git push origin master --force
+  224  git origin -v
+  225  git remote -v
+  226  ls
+  227  git status
+  228  history
+here this change from github
